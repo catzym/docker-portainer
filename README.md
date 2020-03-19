@@ -1,5 +1,5 @@
 ## 安装
-> docker-compose 命令：
+# docker-compose 命令：
 >
 > git clone https://github.com/catzym/docker-portainer.git docker-portainer
 > 
@@ -7,7 +7,7 @@
 > 
 > docker-compose up -d
 
-> docker run 命令：
+### docker run 命令：
 >
 > docker run -d --name portainer --restart always -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v /data/docker-portainer/portainer_data:/data -v /public:/public portainer/portainer
 
