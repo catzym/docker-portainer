@@ -7,7 +7,10 @@
 
 ## 关闭
 > docker-compose down
- 
+
+## 汉化包
+> public文件夹，放到\根目录下
+
 ## 升级流程
 > docker-compose 升级镜像：
 >
